@@ -22,6 +22,3 @@ fn multiply(x: i32, y: i32) -> i32 {
     x * y
 }
 
-fn quotient(x: i32, y: i32) -> i32 {
-    x / y
-}
