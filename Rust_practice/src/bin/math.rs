@@ -21,3 +21,11 @@ fn subtract(x: i32, y: i32) -> i32 {
 fn multiply(x: i32, y: i32) -> i32 {
     x * y
 }
+
+
+fn variable() {
+    let x = 7;
+    println!("The value of x is: {x}");
+    x = 6;
+    println!("The value of x is: {x}");
+}
