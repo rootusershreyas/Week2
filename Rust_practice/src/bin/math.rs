@@ -25,14 +25,13 @@ fn multiply(x: i32, y: i32) -> i32 {
 */
 
 fn main() {
-    let x = 3.8;
-    let y = 6.0;
-    let sum = add(x, y);
-    println!("The sum is: {sum}");
+    variable();
 }
 
-fn add(x: f64, y: f64) -> f64 {
-    x + y
+fn variable(){
+    let f =true;
+
+    let t = false;
+    print!("f is {f} and t is {t}");
+
 }
-
-
