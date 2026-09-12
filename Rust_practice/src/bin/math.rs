@@ -1,3 +1,4 @@
+/*
 fn main() {
     let sum = add(5, 10);
     let difference = subtract(10, 5);
@@ -21,7 +22,11 @@ fn subtract(x: i32, y: i32) -> i32 {
 fn multiply(x: i32, y: i32) -> i32 {
     x * y
 }
+*/
 
+fn main() {
+    variable();
+}
 
 fn variable() {
     let x = 7;
