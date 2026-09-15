@@ -25,11 +25,13 @@ fn multiply(x: i32, y: i32) -> i32 {
 */
 
 fn main() {
-    variable(4);
+    variable();
 }
 
-fn variable(x: i32){
-    println!("The value of x is: {x}");
+fn variable(){
+    /*println!("The value of x is: {x}");
+    let x =5; */
+
     /* let f =true;
 
     let t = false;
@@ -38,12 +40,17 @@ fn variable(x: i32){
     let z = 5.0;
     println!("c is {c} and z is {z}"); */
 
-    /*let tuple = (300, 5.3, 1);
+    /*let tuple = (300, 5.3, 'c');
     let (_x, _y, z) = tuple;
     println!("The value of z is: {z}"); */
 
-    /*let a = [2,4,8,7,5];
-    println!("The value of a is: {a:?}");  */
+    let a = ['2','4','8','7','5'];
+    let first = a[0];
+    println!("The value of first is: {first}");
+    println!("The value of a is: {a:?}");
 
-    
+    /*let number = 4;
+    if number < 5 {
+        println!("condition was true");
+    } */
 }
