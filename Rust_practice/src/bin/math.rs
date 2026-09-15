@@ -53,7 +53,7 @@ fn variable(){
     let number = if condition { 4 } else { 6 };
     println!("The value of number is: {number}"); */
 
-   /* let mut counter = 0;
+/* let mut counter = 0;
 
     let result = loop {
         counter += 1;
@@ -109,7 +109,7 @@ let a = area(rect1);{
 fn area(rectangle: Rectangle) -> u32 {
     rectangle.width * rectangle.height
 } */
-    /*let a = [9, 2, 9, 4, 5];
+    let a = [9, 2, 9, 4, 5];
     let mut index = 0;
 
     for _element in a {
@@ -117,9 +117,9 @@ fn area(rectangle: Rectangle) -> u32 {
 
         index += 1;
 
-    }*/
+    }
     
-    struct User {
+    /*  struct User {
     active: bool,
     username: String,
     email: String,
@@ -134,7 +134,7 @@ fn area(rectangle: Rectangle) -> u32 {
     println!(
         "User created: username={} email={} active={} sign_in_count={}"
         , &user1.username, &user1.email, user1.active, user1.sign_in_count
-    );
+    ); */
 }
 
 
