@@ -117,6 +117,17 @@ fn area(rectangle: Rectangle) -> u32 {
 
         index += 1;
 
+
+let fixed_text = "hello";
+let mut owned_text = String::from("hello");
+owned_text.push_str(", Rust");
+println!("{owned_text}");
+
+{
+    let message = String::from("hello");
+    println!("{message}");
+} // message goes out of scope and Rust releases its memory
+
     }
     
     /*  struct User {
@@ -136,6 +147,5 @@ fn area(rectangle: Rectangle) -> u32 {
         , &user1.username, &user1.email, user1.active, user1.sign_in_count
     ); */
 }
-
 
 
