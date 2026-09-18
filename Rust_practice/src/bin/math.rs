@@ -109,7 +109,7 @@ let a = area(rect1);{
 fn area(rectangle: Rectangle) -> u32 {
     rectangle.width * rectangle.height
 } */
-    let a = [9, 2, 9, 4, 5];
+    /*let a = [9, 2, 9, 4, 5];
     let mut index = 0;
 
     for _element in a {
@@ -126,11 +126,14 @@ println!("{owned_text}");
 {
     let message = String::from("hello");
     println!("{message}");
-} // message goes out of scope and Rust releases its memory
+    let x = 5;
+    let y = x;
+println!("x = {x}, y = {y}");
+}
 
-    }
+    } */
     
-    /*  struct User {
+    struct User {
     active: bool,
     username: String,
     email: String,
@@ -142,10 +145,36 @@ println!("{owned_text}");
         active: true,
         sign_in_count: 1,
     };
+    println!("{}", user1.email);
+
+
+
     println!(
         "User created: username={} email={} active={} sign_in_count={}"
         , &user1.username, &user1.email, user1.active, user1.sign_in_count
-    ); */
+    );
+        /*fn take_ownership(text: String) {
+    println!("{text}");
 }
+fn make_copy(number: i32) {
+    println!("{number}");
+} */
+fn main() {
+    let message = String::from("hello"); // message moves into the function and is no longer valid here
+    let number = 10;
+    println!("{number}"); // number is still valid
+    }
+    fn create_message() -> String {
+    String::from("hello")
+}
+fn return_message(text: String) -> String {
+    text
+}
+
+    let first = create_message();
+    let second = return_message(first);
+    println!("{second}");
+}
+
 
 
